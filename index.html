@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Venu Madhav — Staff SW Engineer · Automation Architect</title>
+<meta name="description" content="Venu Madhav — Staff Software Engineer and Automation Architect with 16+ years of experience. Playwright expert, AI-augmented QA platform leader.">
+<meta name="keywords" content="Staff SDET, Principal SDET, Automation Architect, QA Architect, Playwright Expert, Test Automation, AI-Augmented QA, SDET Fremont, QA Platform Engineer">
+<!-- Social preview (LinkedIn / Twitter / Slack) -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Venu Madhav — Automation Architect · Staff SW Engineer">
+<meta property="og:description" content="16+ years · Playwright expert · AI-augmented QA frameworks across 15+ global markets at Dell. Open to Staff/Principal roles.">
+<meta property="og:site_name" content="Venu Madhav — Portfolio">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Venu Madhav — Automation Architect · Staff SW Engineer">
+<meta name="twitter:description" content="16+ years · Playwright expert · AI-augmented QA frameworks across 15+ global markets at Dell.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Venu Madhav",
+  "jobTitle": "Staff Software Engineer · Automation Architect",
+  "email": "mailto:Venu.mahadevu@gmail.com",
+  "telephone": "+1-669-306-2113",
+  "address": {"@type": "PostalAddress", "addressLocality": "Fremont", "addressRegion": "CA", "addressCountry": "US"},
+  "sameAs": ["https://linkedin.com/in/venu-madhav-mahadevu-44202419"],
+  "knowsAbout": ["Playwright", "Test Automation", "Selenium WebDriver", "CI/CD", "GitLab CI", "AI-Augmented Development", "RAG", "LangChain", "MCP", "QA Architecture"],
+  "alumniOf": {"@type": "CollegeOrUniversity", "name": "Andhra University"},
+  "worksFor": {"@type": "Organization", "name": "Dell Technologies"}
+}
+</script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F6F8F7;
+  --ink:#12263A;
+  --ink-soft:#3D5266;
+  --pass:#1B8A5A;
+  --pass-soft:#E3F2EA;
+  --amber:#D9822B;
+  --line:#D8E0DC;
+  --card:#FFFFFF;
+  --term-bg:#0E1B28;
+  --term-text:#C7D6CE;
+  --mono:'IBM Plex Mono',ui-monospace,monospace;
+  --sans:'IBM Plex Sans',system-ui,sans-serif;
+  --display:'Space Grotesk',var(--sans);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:var(--sans);background:var(--paper);color:var(--ink);line-height:1.6;font-size:16px}
+a{color:var(--pass);text-decoration:none}
+a:hover{text-decoration:underline}
+a:focus-visible,button:focus-visible{outline:3px solid var(--amber);outline-offset:2px;border-radius:3px}
+.wrap{max-width:1060px;margin:0 auto;padding:0 24px}
+
+/* ---------- header ---------- */
+header{position:sticky;top:0;z-index:50;background:rgba(246,248,247,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:60px}
+.logo{font-family:var(--mono);font-weight:500;font-size:.95rem;color:var(--ink)}
+.logo .cursor{color:var(--pass);animation:blink 1.2s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+nav ul{display:flex;gap:26px;list-style:none}
+nav a{color:var(--ink-soft);font-size:.9rem;font-weight:500}
+nav a:hover{color:var(--pass);text-decoration:none}
+
+/* ---------- hero ---------- */
+.hero{padding:72px 0 56px;display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center}
+.eyebrow{font-family:var(--mono);font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--pass);margin-bottom:14px}
+h1{font-family:var(--display);font-size:clamp(2.2rem,5vw,3.4rem);line-height:1.08;font-weight:700;letter-spacing:-.02em}
+.hero .role{margin-top:14px;font-size:1.1rem;color:var(--ink-soft);max-width:44ch}
+.hero .role strong{color:var(--ink)}
+.hero-cta{margin-top:28px;display:flex;gap:14px;flex-wrap:wrap}
+.btn{display:inline-block;padding:11px 22px;border-radius:6px;font-weight:600;font-size:.92rem;transition:transform .15s ease}
+.btn:hover{text-decoration:none;transform:translateY(-1px)}
+.btn-primary{background:var(--ink);color:#fff}
+.btn-primary:hover{background:#1B3450}
+.btn-ghost{border:1.5px solid var(--ink);color:var(--ink)}
+.meta-line{margin-top:22px;font-family:var(--mono);font-size:.8rem;color:var(--ink-soft)}
+
+/* terminal — the signature */
+.terminal{background:var(--term-bg);border-radius:10px;box-shadow:0 18px 44px rgba(18,38,58,.22);overflow:hidden;font-family:var(--mono);font-size:.82rem}
+.term-bar{display:flex;align-items:center;gap:7px;padding:11px 14px;background:#152638;border-bottom:1px solid #22384E}
+.dot{width:11px;height:11px;border-radius:50%}
+.dot:nth-child(1){background:#E5604C}.dot:nth-child(2){background:#E0A93E}.dot:nth-child(3){background:#4FA46C}
+.term-title{margin-left:8px;color:#6E8598;font-size:.72rem}
+.term-body{padding:18px 18px 20px;color:var(--term-text);min-height:238px}
+.term-body .line{white-space:pre-wrap;opacity:0;transform:translateY(3px);animation:rise .35s ease forwards}
+.term-body .cmd{color:#8FB6D9}
+.term-body .ok{color:#5CC98A}
+.term-body .dim{color:#5E7385}
+.term-body .sum{color:#E0A93E}
+@keyframes rise{to{opacity:1;transform:none}}
+.line:nth-child(1){animation-delay:.3s}.line:nth-child(2){animation-delay:.9s}
+.line:nth-child(3){animation-delay:1.4s}.line:nth-child(4){animation-delay:1.9s}
+.line:nth-child(5){animation-delay:2.4s}.line:nth-child(6){animation-delay:2.9s}
+.line:nth-child(7){animation-delay:3.4s}.line:nth-child(8){animation-delay:4.1s}
+@media (prefers-reduced-motion:reduce){
+  .term-body .line{animation:none;opacity:1;transform:none}
+  .logo .cursor{animation:none}
+  html{scroll-behavior:auto}
+}
+
+/* ---------- sections ---------- */
+section{padding:64px 0}
+.sec-head{display:flex;align-items:baseline;gap:14px;margin-bottom:34px}
+.sec-head h2{font-family:var(--display);font-size:1.7rem;font-weight:700;letter-spacing:-.01em}
+.sec-head .tag{font-family:var(--mono);font-size:.75rem;color:var(--pass);background:var(--pass-soft);padding:3px 10px;border-radius:20px}
+
+/* highlights: test-report stats */
+.report{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:24px 22px;position:relative}
+.stat::before{content:'✓';position:absolute;top:18px;right:18px;color:var(--pass);font-weight:700;font-size:1.05rem}
+.stat .num{font-family:var(--display);font-size:2.1rem;font-weight:700;color:var(--ink)}
+.stat .num span{color:var(--pass)}
+.stat p{font-size:.9rem;color:var(--ink-soft);margin-top:6px}
+.awards{margin-top:18px;font-family:var(--mono);font-size:.8rem;color:var(--ink-soft)}
+.awards b{color:var(--amber);font-weight:500}
+
+/* experience: pipeline */
+.pipeline{position:relative;padding-left:34px}
+.pipeline::before{content:'';position:absolute;left:10px;top:8px;bottom:8px;width:2px;background:var(--line)}
+.job{position:relative;padding-bottom:44px}
+.job:last-child{padding-bottom:0}
+.job::before{content:'';position:absolute;left:-30px;top:7px;width:14px;height:14px;border-radius:50%;background:var(--paper);border:3px solid var(--pass)}
+.job.past::before{border-color:#9DB3A8}
+.job .when{font-family:var(--mono);font-size:.75rem;color:var(--pass);letter-spacing:.05em}
+.job.past .when{color:var(--ink-soft)}
+.job h3{font-family:var(--display);font-size:1.15rem;font-weight:700;margin-top:4px}
+.job .org{font-size:.92rem;color:var(--ink-soft);margin-bottom:12px}
+.job ul{list-style:none;display:grid;gap:9px}
+.job li{position:relative;padding-left:22px;font-size:.94rem;color:var(--ink-soft)}
+.job li::before{content:'✓';position:absolute;left:0;color:var(--pass);font-weight:600}
+.job li b{color:var(--ink);font-weight:600}
+.job.compact li::before{content:'·';color:#9DB3A8}
+
+/* skills: spec files */
+.specs{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.spec{background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.spec-name{font-family:var(--mono);font-size:.78rem;padding:10px 16px;background:var(--pass-soft);color:var(--ink);border-bottom:1px solid var(--line)}
+.spec-name::before{content:'» ';color:var(--pass)}
+.chips{padding:15px 16px;display:flex;flex-wrap:wrap;gap:8px}
+.chip{font-size:.8rem;font-weight:500;background:var(--paper);border:1px solid var(--line);padding:5px 11px;border-radius:5px;color:var(--ink-soft)}
+.chip.hot{background:var(--ink);color:#fff;border-color:var(--ink)}
+
+/* ai lab */
+.ailab{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:start}
+.chatbox{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 10px 30px rgba(18,38,58,.08)}
+.chat-head{padding:12px 16px;background:var(--pass-soft);border-bottom:1px solid var(--line);font-family:var(--mono);font-size:.78rem;color:var(--ink);display:flex;justify-content:space-between;align-items:center}
+.chat-head .live{color:var(--pass)}
+.chat-log{padding:16px;height:320px;overflow-y:auto;display:flex;flex-direction:column;gap:10px;background:var(--paper)}
+.msg{max-width:85%;padding:10px 14px;border-radius:12px;font-size:.88rem;line-height:1.5}
+.msg.bot{background:var(--card);border:1px solid var(--line);border-bottom-left-radius:4px;align-self:flex-start}
+.msg.bot .src{display:block;margin-top:7px;font-family:var(--mono);font-size:.68rem;color:var(--pass)}
+.msg.user{background:var(--ink);color:#fff;border-bottom-right-radius:4px;align-self:flex-end}
+.chat-input{display:flex;border-top:1px solid var(--line)}
+.chat-input input{flex:1;border:0;padding:13px 16px;font-family:var(--sans);font-size:.9rem;background:var(--card);color:var(--ink)}
+.chat-input input:focus{outline:none;background:#FBFDFC}
+.chat-input button{border:0;background:var(--pass);color:#fff;padding:0 22px;font-weight:600;font-size:.9rem;cursor:pointer}
+.chat-input button:hover{background:#22A06B}
+.suggest{padding:10px 16px 14px;display:flex;gap:8px;flex-wrap:wrap;background:var(--paper)}
+.suggest button{font-size:.75rem;font-family:var(--mono);background:var(--card);border:1px solid var(--line);border-radius:20px;padding:5px 12px;cursor:pointer;color:var(--ink-soft)}
+.suggest button:hover{border-color:var(--pass);color:var(--pass)}
+.arch{background:var(--term-bg);border-radius:12px;padding:22px;font-family:var(--mono);font-size:.78rem;color:var(--term-text);line-height:1.9}
+.arch .t{color:#E0A93E;margin-bottom:8px;display:block}
+.arch .k{color:#8FB6D9}
+.arch .ok2{color:#5CC98A}
+.arch .dim2{color:#5E7385}
+.ai-note{margin-top:16px;font-size:.85rem;color:var(--ink-soft)}
+.ai-note b{color:var(--ink)}
+@media (max-width:840px){.ailab{grid-template-columns:1fr}}
+
+/* case studies */
+.cases{display:grid;gap:20px}
+.case{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:26px 28px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:22px;position:relative}
+.case::before{content:attr(data-id);position:absolute;top:-11px;left:22px;font-family:var(--mono);font-size:.7rem;background:var(--ink);color:#fff;padding:3px 12px;border-radius:14px;letter-spacing:.08em}
+.case h3{font-family:var(--display);font-size:1.12rem;font-weight:700;grid-column:1/-1;margin-bottom:-6px}
+.case .col .lbl{font-family:var(--mono);font-size:.68rem;text-transform:uppercase;letter-spacing:.12em;margin-bottom:7px}
+.case .col.problem .lbl{color:#C0563F}
+.case .col.approach .lbl{color:var(--amber)}
+.case .col.impact .lbl{color:var(--pass)}
+.case .col p{font-size:.88rem;color:var(--ink-soft)}
+.case .col.impact p b{color:var(--pass);font-weight:700}
+.case .stack{grid-column:1/-1;font-family:var(--mono);font-size:.72rem;color:var(--ink-soft);border-top:1px dashed var(--line);padding-top:12px}
+.case .stack span{color:var(--pass)}
+
+/* target roles strip */
+.targets{background:var(--card);border:1.5px solid var(--pass);border-radius:12px;padding:22px 26px;display:flex;align-items:center;gap:20px;flex-wrap:wrap;margin-top:28px}
+.targets .pulse{width:10px;height:10px;border-radius:50%;background:var(--pass);box-shadow:0 0 0 0 rgba(27,138,90,.5);animation:pulse 2s infinite;flex-shrink:0}
+@keyframes pulse{70%{box-shadow:0 0 0 11px rgba(27,138,90,0)}100%{box-shadow:0 0 0 0 rgba(27,138,90,0)}}
+@media (prefers-reduced-motion:reduce){.targets .pulse{animation:none}}
+.targets .t-label{font-weight:600;font-size:.95rem}
+.targets .t-roles{display:flex;gap:8px;flex-wrap:wrap}
+.targets .t-roles span{font-family:var(--mono);font-size:.76rem;background:var(--pass-soft);color:var(--ink);padding:5px 12px;border-radius:5px}
+@media (max-width:840px){.case{grid-template-columns:1fr}}
+
+/* education */
+.edu{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.edu .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:20px}
+.edu h3{font-family:var(--display);font-size:1rem;font-weight:700}
+.edu p{font-size:.85rem;color:var(--ink-soft);margin-top:5px}
+.edu .card .tag2{font-family:var(--mono);font-size:.7rem;color:var(--pass);text-transform:uppercase;letter-spacing:.1em}
+
+/* contact */
+.contact{background:var(--ink);color:#DCE6E0;border-radius:14px;padding:52px 46px;text-align:center;margin-bottom:64px}
+.contact h2{font-family:var(--display);font-size:1.9rem;color:#fff;letter-spacing:-.01em}
+.contact p{margin:12px auto 26px;max-width:52ch;color:#A9BCC9}
+.contact .links{display:flex;justify-content:center;gap:14px;flex-wrap:wrap}
+.contact .btn-primary{background:var(--pass)}
+.contact .btn-primary:hover{background:#22A06B}
+.contact .btn-ghost{border-color:#4E6A82;color:#DCE6E0}
+.contact .mono-note{margin-top:26px;font-family:var(--mono);font-size:.78rem;color:#6E8598}
+.contact .mono-note .ok{color:#5CC98A}
+
+footer{border-top:1px solid var(--line);padding:22px 0;font-family:var(--mono);font-size:.75rem;color:var(--ink-soft);display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+
+/* reveal on scroll */
+.reveal{opacity:0;transform:translateY(14px);transition:opacity .5s ease,transform .5s ease}
+.reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}}
+
+@media (max-width:840px){
+  .hero{grid-template-columns:1fr;padding:48px 0 40px}
+  .report{grid-template-columns:1fr}
+  .specs{grid-template-columns:1fr}
+  .edu{grid-template-columns:1fr}
+  nav ul{gap:16px}
+  nav ul li:nth-child(n+4){display:none}
+  .contact{padding:40px 24px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <div class="logo">venu@qa-platform:~$ <span class="cursor">▊</span></div>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="#report">Highlights</a></li>
+        <li><a href="#cases">Case Studies</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#ai-lab">AI Lab</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- HERO -->
+  <section class="hero" aria-label="Introduction">
+    <div>
+      <p class="eyebrow">Staff SW Engineer · Automation Architect · Principal SDET</p>
+      <h1>Venu Madhav</h1>
+      <p class="role">I architect <strong>enterprise-scale test automation</strong> — Playwright frameworks, AI-augmented QA platforms, and CI/CD pipelines trusted across <strong>15+ international markets</strong> at Dell Technologies.</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#contact">Get in touch</a>
+        <a class="btn btn-ghost" href="Venu_Madhav_Resume.pdf" download="Venu_Madhav_Resume.pdf">↓ Download Resume</a>
+        <a class="btn btn-ghost" href="https://linkedin.com/in/venu-madhav-mahadevu-44202419" target="_blank" rel="noopener">LinkedIn ↗</a>
+      </div>
+      <p class="meta-line">📍 Fremont, CA &nbsp;·&nbsp; 16+ years &nbsp;·&nbsp; CSM® certified</p>
+    </div>
+
+    <div class="terminal" aria-label="Career summary displayed as a passing test suite">
+      <div class="term-bar">
+        <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+        <span class="term-title">career.spec.ts — playwright</span>
+      </div>
+      <div class="term-body">
+        <div class="line"><span class="cmd">$ npx playwright test career.spec.ts</span></div>
+        <div class="line"><span class="dim">Running 6 checks using 1 architect</span></div>
+        <div class="line"><span class="ok">  ✓</span> 16+ years of engineering experience</div>
+        <div class="line"><span class="ok">  ✓</span> playwright framework · 15+ global markets</div>
+        <div class="line"><span class="ok">  ✓</span> dev time reduced by 40% with AI-assisted codegen</div>
+        <div class="line"><span class="ok">  ✓</span> tooling adopted by 1,000+ Dell engineers</div>
+        <div class="line"><span class="ok">  ✓</span> zero-downtime · zero critical defects at launch</div>
+        <div class="line"><span class="sum">  6 passed</span> <span class="dim">(16.4y)</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HIGHLIGHTS -->
+  <section id="report" class="reveal" aria-label="Highlighted achievements">
+    <div class="sec-head"><h2>Test Report</h2><span class="tag">highlights · all passing</span></div>
+    <div class="report">
+      <div class="stat">
+        <div class="num">40<span>%</span></div>
+        <p>Development time cut across 15+ international e-commerce markets with a Playwright + AI framework.</p>
+      </div>
+      <div class="stat">
+        <div class="num">1,000<span>+</span></div>
+        <p>Dell engineers across 4 teams adopted the Host Entry Change tool — deployed with zero downtime.</p>
+      </div>
+      <div class="stat">
+        <div class="num">100<span>+</span></div>
+        <p>Test variants generated from configuration arrays — Cart, Shipping, Payment, Verify &amp; Submit flows.</p>
+      </div>
+    </div>
+    <p class="awards">🏆 <b>Q1 Silver Award</b> · <b>Team Award</b> · <b>CSAT Award</b> — ROM Application, Dell Technologies</p>
+  </section>
+
+  <!-- CASE STUDIES -->
+  <section id="cases" class="reveal" aria-label="Case studies">
+    <div class="sec-head"><h2>Case Studies</h2><span class="tag">problem → approach → impact</span></div>
+    <div class="cases">
+
+      <article class="case" data-id="CASE 01">
+        <h3>Global Test Automation Framework — Dell.com, 15+ Markets</h3>
+        <div class="col problem">
+          <p class="lbl">Problem</p>
+          <p>Every country's checkout flow (Cart, Shipping, Payment, Verify &amp; Submit) required duplicated test code — 15+ markets meant 15+ codebases drifting apart, each with unique compliance rules.</p>
+        </div>
+        <div class="col approach">
+          <p class="lbl">Approach</p>
+          <p>Architected a spec-driven, data-driven Playwright framework: one codebase, configuration arrays per market. Layered in AI-assisted code generation (Windsurf/Cascade) to accelerate authoring and defect analysis.</p>
+        </div>
+        <div class="col impact">
+          <p class="lbl">Impact</p>
+          <p><b>40% faster development</b> across 15+ countries · <b>100+ test variants</b> generated from config · per-country duplication eliminated entirely.</p>
+        </div>
+        <p class="stack">stack: <span>Playwright · TypeScript · GitLab CI · MongoDB · JIRA · Windsurf/Cascade</span></p>
+      </article>
+
+      <article class="case" data-id="CASE 02">
+        <h3>Host Entry Change Tool — 1,000+ Engineer Rollout</h3>
+        <div class="col problem">
+          <p class="lbl">Problem</p>
+          <p>Engineers across eSupport, Premier, UAT, and E2E teams were manually managing host entries for environment switching — slow, error-prone, and repeated thousands of times a week.</p>
+        </div>
+        <div class="col approach">
+          <p class="lbl">Approach</p>
+          <p>Built a self-service tool that automated host entry changes safely, then drove adoption across 4 teams and presented the solution at Dell's Cloud IT Program.</p>
+        </div>
+        <div class="col impact">
+          <p class="lbl">Impact</p>
+          <p>Adopted by <b>1,000+ engineers</b> · deployed with <b>zero downtime</b> · became standard tooling across the org.</p>
+        </div>
+        <p class="stack">stack: <span>C# · ASP.NET · Web API · internal platform engineering</span></p>
+      </article>
+
+      <article class="case" data-id="CASE 03">
+        <h3>Test Data Management &amp; Zero-Defect Launches</h3>
+        <div class="col problem">
+          <p class="lbl">Problem</p>
+          <p>Dell's e-commerce teams lacked reliable, reusable test data, creating flaky tests and slow release validation for high-stakes product launches.</p>
+        </div>
+        <div class="col approach">
+          <p class="lbl">Approach</p>
+          <p>Led automation architecture for the platform: built Test Data Management tooling, rolled it out to multiple teams including Premier, and automated Order Status application testing end-to-end.</p>
+        </div>
+        <div class="col impact">
+          <p class="lbl">Impact</p>
+          <p>Multiple product launches shipped with <b>zero critical defects</b> · tooling adopted across teams · CI/CD continuous delivery established.</p>
+        </div>
+        <p class="stack">stack: <span>Selenium · C# · CI/CD pipelines · test infrastructure</span></p>
+      </article>
+
+    </div>
+
+    <div class="targets">
+      <span class="pulse" aria-hidden="true"></span>
+      <span class="t-label">Actively open to:</span>
+      <div class="t-roles">
+        <span>Staff SDET</span><span>Principal SDET</span><span>Automation Architect</span>
+        <span>QA Platform Lead</span><span>Staff SW Engineer — Quality</span><span>AI-Augmented QA</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="reveal" aria-label="Work experience">
+    <div class="sec-head"><h2>Pipeline</h2><span class="tag">experience · 2010 → present</span></div>
+    <div class="pipeline">
+
+      <article class="job">
+        <p class="when">SEP 2021 — PRESENT · RUNNING</p>
+        <h3>Software Senior Engineer</h3>
+        <p class="org">Dell Technologies · Fremont, CA</p>
+        <ul>
+          <li>Cut development time by <b>40% across 15+ countries</b> by architecting a Playwright-based global test automation framework for Dell.com with AI-assisted code generation (Windsurf/Cascade).</li>
+          <li>Eliminated per-country duplication with a <b>spec-driven, data-driven architecture</b> — 100+ test variants generated from configuration arrays.</li>
+          <li>Validated complex compliance scenarios: <b>VAT, GST/PAN (IN), CPF/CNPJ (BR)</b>, trade compliance, and multi-ship orders across US, JP, KR, CN, MY, UK, IT, and more.</li>
+          <li>Integrated <b>MongoDB</b> for test result persistence; implemented AI-augmented defect analysis with JIRA to streamline triage at scale.</li>
+          <li>Configured <b>GitLab CI</b> pipelines; mentored engineers on Playwright, Selenium, and AI-augmented development practices.</li>
+        </ul>
+      </article>
+
+      <article class="job past">
+        <p class="when">MAR 2020 — SEP 2021</p>
+        <h3>Associate SW Architect</h3>
+        <p class="org">UST Global (Contract for Dell) · Fremont, CA</p>
+        <ul>
+          <li>Led automation architecture for Dell's e-commerce platform; drove transition to <b>scalable test infrastructure</b> and CI/CD continuous delivery pipelines.</li>
+          <li>Built <b>Test Data Management tooling</b> adopted across multiple Dell teams; automated Order Status tests supporting launches with <b>zero critical defects</b>.</li>
+        </ul>
+      </article>
+
+      <article class="job past">
+        <p class="when">JUN 2015 — DEC 2018</p>
+        <h3>Software Senior Engineer</h3>
+        <p class="org">Dell Technologies · Bangalore, India</p>
+        <ul>
+          <li>Built <b>ROM application test framework</b> with parallel service calls — earned Team Award and CSAT Award.</li>
+          <li>Created <b>Host Entry Change tool</b> adopted by 1,000+ engineers across eSupport, Premier, UAT, and E2E teams — presented at the Cloud IT Program.</li>
+          <li>Won <b>Q1 Silver Award</b>; mentored team on Web API automation and Selenium WebDriver.</li>
+        </ul>
+      </article>
+
+      <article class="job past compact">
+        <p class="when">NOV 2012 — JUN 2015</p>
+        <h3>Software Programmer</h3>
+        <p class="org">Capgemini India Pvt Ltd. (Contract for Dell) · Bangalore, India</p>
+      </article>
+
+      <article class="job past compact">
+        <p class="when">NOV 2010 — NOV 2012</p>
+        <h3>Software Programmer</h3>
+        <p class="org">C4U IT Solutions Pvt Ltd. · Bangalore, India</p>
+      </article>
+
+      <article class="job past compact">
+        <p class="when">FEB 2010 — OCT 2010</p>
+        <h3>Software Engineer</h3>
+        <p class="org">Eduquity Career Technologies Pvt Ltd. · Bangalore, India</p>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="reveal" aria-label="Skills">
+    <div class="sec-head"><h2>Spec Files</h2><span class="tag">skills · toolset</span></div>
+    <div class="specs">
+      <div class="spec">
+        <div class="spec-name">automation.spec.ts</div>
+        <div class="chips">
+          <span class="chip hot">Playwright (Expert)</span><span class="chip">Selenium WebDriver</span>
+          <span class="chip">Page Object Model</span><span class="chip">Data-Driven Architecture</span>
+        </div>
+      </div>
+      <div class="spec">
+        <div class="spec-name">languages-and-tools.spec.ts</div>
+        <div class="chips">
+          <span class="chip hot">JavaScript / TypeScript</span><span class="chip">C#</span><span class="chip">ASP.NET</span>
+          <span class="chip">MongoDB</span><span class="chip">JIRA</span><span class="chip">Git</span>
+        </div>
+      </div>
+      <div class="spec">
+        <div class="spec-name">ci-cd-devops.spec.ts</div>
+        <div class="chips">
+          <span class="chip hot">GitLab CI</span><span class="chip">GitHub Actions</span><span class="chip">Azure DevOps</span>
+        </div>
+      </div>
+      <div class="spec">
+        <div class="spec-name">ai-augmented-dev.spec.ts</div>
+        <div class="chips">
+          <span class="chip hot">Windsurf · Cascade</span><span class="chip hot">RAG</span><span class="chip hot">LangChain</span>
+          <span class="chip hot">MCP</span><span class="chip">AI code generation</span>
+          <span class="chip">AI defect analysis</span><span class="chip">AI-assisted debugging</span>
+        </div>
+      </div>
+      <div class="spec">
+        <div class="spec-name">cross-browser-mobile.spec.ts</div>
+        <div class="chips">
+          <span class="chip">Chromium</span><span class="chip">Firefox</span><span class="chip">WebKit</span>
+          <span class="chip">Device emulation</span><span class="chip">Trace / video capture</span>
+        </div>
+      </div>
+      <div class="spec">
+        <div class="spec-name">global-compliance.spec.ts</div>
+        <div class="chips">
+          <span class="chip">VAT</span><span class="chip">GST / PAN</span><span class="chip">CPF / CNPJ</span>
+          <span class="chip">Trade regulations</span><span class="chip">Multi-ship · Multi-currency</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AI LAB -->
+  <section id="ai-lab" class="reveal" aria-label="AI Lab — RAG assistant demo">
+    <div class="sec-head"><h2>AI Lab</h2><span class="tag">RAG · LangChain · MCP</span></div>
+    <div class="ailab">
+
+      <div>
+        <div class="chatbox">
+          <div class="chat-head">
+            <span>AskVenu — mini-RAG assistant</span>
+            <span class="live">● retrieval online</span>
+          </div>
+          <div class="chat-log" id="chatLog" aria-live="polite">
+            <div class="msg bot">Hi! I'm a client-side RAG demo. My knowledge base is Venu's resume, chunked and indexed. Ask me anything — try "What's his Playwright experience?"
+              <span class="src">pipeline: chunk → score → retrieve → answer</span>
+            </div>
+          </div>
+          <div class="suggest">
+            <button data-q="What is his Playwright experience?">Playwright experience?</button>
+            <button data-q="Tell me about AI tools he uses">AI tools?</button>
+            <button data-q="What awards has he won?">Awards?</button>
+            <button data-q="How do I contact him?">Contact?</button>
+          </div>
+          <div class="chat-input">
+            <input id="chatInput" type="text" placeholder="Ask about Venu's experience…" aria-label="Ask a question about Venu">
+            <button id="chatSend">Ask</button>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="arch">
+          <span class="t">// production RAG architecture (full version)</span>
+          <span class="k">user question</span> <span class="dim2">→</span> <span class="ok2">embed</span> <span class="dim2">(OpenAI / sentence-transformers)</span><br>
+          &nbsp;&nbsp;<span class="dim2">→</span> <span class="ok2">vector search</span> <span class="dim2">(ChromaDB / pgvector · top-k chunks)</span><br>
+          &nbsp;&nbsp;<span class="dim2">→</span> <span class="ok2">LangChain</span> <span class="dim2">retrieval chain + prompt template</span><br>
+          &nbsp;&nbsp;<span class="dim2">→</span> <span class="ok2">LLM</span> <span class="dim2">(Claude / GPT — grounded, cited answer)</span><br>
+          &nbsp;&nbsp;<span class="dim2">→</span> <span class="ok2">MCP servers</span> <span class="dim2">expose tools: JIRA, Git, test reports</span><br>
+          <br>
+          <span class="t">// what runs on THIS page</span>
+          <span class="ok2">✓</span> resume chunked into a JS knowledge base<br>
+          <span class="ok2">✓</span> keyword scoring ranks chunks per query<br>
+          <span class="ok2">✓</span> top chunk retrieved &amp; returned with source<br>
+          <span class="dim2">– LLM layer omitted: no API keys in public code</span>
+        </div>
+        <p class="ai-note"><b>Why a mini-RAG?</b> A static site can't safely call LLM APIs (keys would be exposed). This demo implements the <b>retrieval</b> half of RAG honestly, client-side — and the panel above shows the full production design I'd deploy with LangChain, a vector DB, and MCP tool servers behind a FastAPI backend.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="reveal" aria-label="Certifications and education">
+    <div class="sec-head"><h2>Certifications &amp; Education</h2><span class="tag">verified</span></div>
+    <div class="edu">
+      <div class="card">
+        <p class="tag2">Certification</p>
+        <h3>Certified ScrumMaster® (CSM)</h3>
+        <p>Scrum Alliance · Cert ID: 000791026 · Member: 000488776</p>
+      </div>
+      <div class="card">
+        <p class="tag2">Master's Degree</p>
+        <h3>Master of Computer Applications</h3>
+        <p>Andhra University, Visakhapatnam</p>
+      </div>
+      <div class="card">
+        <p class="tag2">Bachelor's Degree</p>
+        <h3>Bachelor of Science (B.Sc)</h3>
+        <p>Andhra University, Visakhapatnam</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" aria-label="Contact">
+    <div class="contact reveal">
+      <h2>Let's build something reliable.</h2>
+      <p>Open to Staff / Principal-level roles in automation architecture, QA platforms, and AI-augmented engineering. Based in Fremont, CA.</p>
+      <div class="links">
+        <a class="btn btn-primary" href="mailto:Venu.mahadevu@gmail.com">Venu.mahadevu@gmail.com</a>
+        <a class="btn btn-ghost" href="Venu_Madhav_Resume.pdf" download="Venu_Madhav_Resume.pdf">↓ Resume (PDF)</a>
+        <a class="btn btn-ghost" href="tel:+16693062113">+1 669-306-2113</a>
+        <a class="btn btn-ghost" href="https://linkedin.com/in/venu-madhav-mahadevu-44202419" target="_blank" rel="noopener">LinkedIn ↗</a>
+      </div>
+      <p class="mono-note"><span class="ok">✓</span> response.time — usually within 24h</p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px">
+    <span>© 2026 Venu Madhav</span>
+    <span>exit code 0 — all checks passed ✓</span>
+  </div>
+</footer>
+
+<script>
+/* ============ AskVenu: client-side mini-RAG ============
+   1. CHUNK   — resume split into topical chunks below
+   2. SCORE   — query tokens matched against chunk keywords
+   3. RETRIEVE— highest-scoring chunk wins
+   4. ANSWER  — chunk text returned with its source label   */
+
+const KB = [
+  {src:"experience/playwright", keys:["playwright","framework","automation","test","architect","selenium","e2e","testing","qa"],
+   text:"Venu is a Playwright expert. He architected a Playwright-based global test automation framework for Dell.com covering 15+ countries, cutting development time by 40% using AI-assisted code generation. He also has deep Selenium WebDriver and Page Object Model experience."},
+  {src:"skills/ai-augmented", keys:["ai","windsurf","cascade","rag","langchain","mcp","llm","artificial","intelligence","augmented","genai","ml"],
+   text:"Venu works with AI-augmented development daily: Windsurf and Cascade for AI-assisted code generation, AI-driven defect analysis integrated with JIRA, and AI-assisted debugging. He builds with modern AI stacks — RAG pipelines, LangChain, and MCP tool servers (this very chatbot is his client-side RAG demo)."},
+  {src:"experience/dell", keys:["dell","current","role","job","work","company","experience","years","senior","engineer","staff"],
+   text:"Venu has 16+ years of experience and has worked with Dell Technologies since 2012 — currently as Software Senior Engineer in Fremont, CA (Sept 2021–present), previously as Associate SW Architect via UST Global, and earlier at Dell Bangalore."},
+  {src:"highlights/awards", keys:["award","awards","achievement","achievements","won","recognition","silver","csat"],
+   text:"Awards: Q1 Silver Award, Team Award, and CSAT Award for the ROM Application at Dell Technologies. His Host Entry Change tool was adopted by 1,000+ engineers across 4 teams with zero downtime."},
+  {src:"skills/compliance", keys:["compliance","vat","gst","pan","cpf","cnpj","global","international","countries","markets","currency","tax","trade"],
+   text:"Venu validated complex global compliance scenarios: VAT and special invoices, GST/PAN for India, CPF/CNPJ for Brazil, trade compliance, multi-ship and multi-currency orders across US, JP, KR, CN, MY, UK, IT and more."},
+  {src:"skills/cicd", keys:["ci","cd","cicd","gitlab","github","actions","azure","devops","pipeline","pipelines","mongodb","git","jira"],
+   text:"CI/CD & DevOps: GitLab CI, GitHub Actions, and Azure DevOps. He configured GitLab CI pipelines for automated test execution and integrated MongoDB for test-result persistence with JIRA-connected defect triage."},
+  {src:"education/certs", keys:["education","degree","certified","certification","csm","scrum","master","mca","university","study","qualification"],
+   text:"Certifications & education: Certified ScrumMaster® (CSM) from Scrum Alliance; Master of Computer Applications (MCA) and B.Sc from Andhra University, Visakhapatnam."},
+  {src:"contact/info", keys:["contact","email","phone","reach","hire","linkedin","location","where","based","call"],
+   text:"Contact Venu at Venu.mahadevu@gmail.com or +1 669-306-2113. He's based in Fremont, CA. LinkedIn: linkedin.com/in/venu-madhav-mahadevu-44202419. He's open to Staff/Principal-level automation architecture roles."},
+  {src:"skills/mentorship", keys:["mentor","mentorship","lead","leadership","team","teach","teams","coach"],
+   text:"Venu is an experienced mentor and leader — he has mentored engineers on Playwright, Selenium, Web API automation, and AI-augmented development practices across multiple Dell teams."}
+];
+
+const tokenize = s => s.toLowerCase().replace(/[^a-z0-9\s]/g," ").split(/\s+/).filter(w => w.length > 1);
+
+function retrieve(query){
+  const toks = tokenize(query);
+  let best = null, bestScore = 0;
+  for (const chunk of KB){
+    let score = 0;
+    for (const t of toks){
+      if (chunk.keys.includes(t)) score += 3;                       // exact keyword hit
+      else if (chunk.keys.some(k => k.startsWith(t) || t.startsWith(k))) score += 1;  // partial
+    }
+    if (score > bestScore){ bestScore = score; best = chunk; }
+  }
+  return bestScore > 0 ? best : null;
+}
+
+const log = document.getElementById('chatLog');
+const input = document.getElementById('chatInput');
+
+function addMsg(text, who, src){
+  const div = document.createElement('div');
+  div.className = 'msg ' + who;
+  div.textContent = text;
+  if (src){
+    const s = document.createElement('span');
+    s.className = 'src';
+    s.textContent = 'retrieved: ' + src;
+    div.appendChild(s);
+  }
+  log.appendChild(div);
+  log.scrollTop = log.scrollHeight;
+}
+
+function ask(q){
+  q = q.trim();
+  if (!q) return;
+  addMsg(q, 'user');
+  input.value = '';
+  setTimeout(() => {
+    const hit = retrieve(q);
+    if (hit) addMsg(hit.text, 'bot', hit.src);
+    else addMsg("I couldn't retrieve a matching chunk for that. Try asking about Playwright, AI tools, CI/CD, awards, compliance work, education, or contact info.", 'bot', 'no-match · fallback');
+  }, 350);
+}
+
+document.getElementById('chatSend').addEventListener('click', () => ask(input.value));
+input.addEventListener('keydown', e => { if (e.key === 'Enter') ask(input.value); });
+document.querySelectorAll('.suggest button').forEach(b =>
+  b.addEventListener('click', () => ask(b.dataset.q)));
+
+// scroll reveal (respects reduced motion via CSS)
+const io = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+}, { threshold: 0.12 });
+document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+
+</body>
+</html>
