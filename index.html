@@ -71,6 +71,8 @@ nav a:hover{color:var(--pass);text-decoration:none}
 h1{font-family:var(--display);font-size:clamp(2.2rem,5vw,3.4rem);line-height:1.08;font-weight:700;letter-spacing:-.02em}
 .hero .role{margin-top:14px;font-size:1.1rem;color:var(--ink-soft);max-width:44ch}
 .hero .role strong{color:var(--ink)}
+.avatar{width:132px;height:132px;border-radius:50%;background:linear-gradient(160deg,var(--pass-soft),#D2E9DD);border:3px solid var(--pass);overflow:hidden;margin-bottom:22px;box-shadow:0 10px 26px rgba(27,138,90,.18)}
+.avatar img{width:100%;height:100%;object-fit:cover;object-position:center;display:block}
 .hero-cta{margin-top:28px;display:flex;gap:14px;flex-wrap:wrap}
 .btn{display:inline-block;padding:11px 22px;border-radius:6px;font-weight:600;font-size:.92rem;transition:transform .15s ease}
 .btn:hover{text-decoration:none;transform:translateY(-1px)}
@@ -255,6 +257,7 @@ footer{border-top:1px solid var(--line);padding:22px 0;font-family:var(--mono);f
   <!-- HERO -->
   <section class="hero" aria-label="Introduction">
     <div>
+      <div class="avatar"><img src="profile.png" alt="Venu Madhav — profile photo" width="132" height="132"></div>
       <p class="eyebrow">Staff SW Engineer · Automation Architect · Principal SDET</p>
       <h1>Venu Madhav</h1>
       <p class="role">I architect <strong>enterprise-scale test automation</strong> — Playwright frameworks, AI-augmented QA platforms, and CI/CD pipelines trusted across <strong>15+ international markets</strong> at Dell Technologies.</p>
